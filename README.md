@@ -99,17 +99,6 @@ Observações e limitações
 - A concatenação para U-type utiliza `instr(31 downto 12) & x"000"` — ao simular/verificar, confirme que a ferramenta aceita essa forma (algumas ferramentas podem requerer conversões explícitas de tipos).
 - Não há suporte a extensões RVC (compressas) — somente instruções RV32I padrão de 32 bits.
 
-Contribuições
--------------
-Sinta-se à vontade para abrir issues ou pull requests com:
-- Casos de teste adicionais (mais instruções/valores)
-- Ajustes de tipagem/compatibilidade entre sintetizadores/simuladores
-- Integração com scripts de CI para simular automaticamente (ex.: GitHub Actions com GHDL)
-
-Licença
--------
-Adicione aqui a licença desejada (ex.: MIT, GPL) — atualmente o repositório não contém um arquivo LICENSE. Se quiser, posso sugerir um texto de licença e um PR.
-
 Referências
 ----------
 - Arquivo fonte: `genImm32.vhd`
